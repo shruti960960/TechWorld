@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWorld</title>
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!-- Link To CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <img src="c:\Users\LENOVO\Pictures\logo2A updated.png" style="width: 80px;height: 70px;"/>
+        <a href="#" class="logo" style="padding-right: 600px;">TechWorld</a>
+        <!-- <p>Decoding Challenges, Building Solutions</p> -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact1">Contact</a></li>
+            <!-- Dark Mode -->
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+    <!-- Home  Section-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Welcome to TechWorld</h1>
+            <h2>Decoding Challenges,<br>Building Solutions</h2>
+            <a href="#courses" class="btn">View Courses</a>
+        </div>
+        <div class="home-img">
+            <img src="https://miro.medium.com/v2/resize:fit:605/1*vTLOUrJWoo4Kzj7ly8o0jA.png" alt="">
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="https://cdni.iconscout.com/illustration/free/thumb/free-developer-team-2043022-1731280.png" alt="">
+        </div>
+        <div class="about-text">
+            <span>About Us</span>
+            <h2>Coding tutorial, Develop websites and provide support to tech projects</h2>
+            <p>TechWorld is a software consulting, teaching and development company specializing in providing customized software solutions to students and businesses of all sizes.</p>
+            <div hidden class="mydiv"  id="text_to_show_hide">
+               <p> Founded in 2019, we are outstanding at delivering coding tutorials in online and offline mode by subject experts, Website development, and tech support globally.
+               </p> 
+               <p>TechWorld has been and is a reliable partner, accompanying global businesses to conquer challenges in the technical journey!</p>
+            </div>
+            
+            <!-- <a href="#text_to_show_hide" class="btn">Learn More</a> -->
+            <button class="btn" onclick="showtext()">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Courses -->
+    <section class="courses" id="courses">
+        <div class="heading">
+            <span>Courses</span>
+            <h2>Advance your career with computer education.</h2>
+        </div>
+        <div class="courses-container">
+            <!-- Box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/htmlcss_image.png" alt="">
+                </div>
+                <h2>HTML/CSS</h2>
+                <h3>Duration: 1Month</h3>
+                <!-- <span>&#8377; 2500/-</span> -->
+                <!-- <i class='bx bx-cart-alt'></i> -->
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/htmlcssjs_image.png" alt="">
+                </div>
+                <h2>Web Designing</h2>
+                <h3>Duration: 2Months </h3>
+                <!-- <span>&#8377; 4000/-</span> -->
+                <!-- <i class='bx bx-cart-alt'></i> -->
+            </div>
+            <!-- Box 3 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/js1_image.png" alt="">
+                </div>
+                <h2>JavaScript</h2>
+                <h3>Duration: 1Month</h3>
+                <!-- <span>&#8377; 2500/-</span> -->
+                <!-- <i class='bx bx-cart-alt'></i> -->
+            </div>
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/c_image.png" alt="">
+                </div>
+                <h2>Programming in C</h2>
+                <h3>Duration: 1Month</h3>
+                <!-- <span>&#8377; 2000/-</span> -->
+                <!-- <i class='bx bx-cart-alt'></i> -->
+            </div>
+            <!-- Box 5 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/c++_image.png" alt="">
+                </div>
+                <h2>Programming in C++</h2>
+                <h3>Duration: 1Month</h3>
+                <!-- <span>&#8377; 2000/-</span> -->
+                <!-- <i class='bx bx-cart-alt'></i> -->
+            </div>
+            <!-- Box 6 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/corejava_image.png" alt="">
+                </div>
+                <h2>Core Java</h2>
+                <h3>Duration: 2.5Months</h3>
+                <!-- <span>&#8377; 8000/-</span> -->
+                <!-- <i class='bx bx-cart-alt'></i> -->
+            </div>
+            <!-- Box 7 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/advancejava_image.png" alt="">
+                </div>
+                <h2>Advance Java</h2>
+                <h3>Duration: 1Month</h3>
+                <!-- <span>&#8377; 2000/-</span> -->
+                <!-- <i class='bx bx-cart-alt'></i> -->
+            </div>
+            <!-- Box 8 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/python_image.png" alt="">
+                </div>
+                <h2>Core Python </h2>
+                <h3>Duration: 2.5Months</h3>
+                <!-- <span>&#8377; 7000/-</span> -->
+                <!-- <i class='bx bx-cart-alt'></i> -->
+            </div>
+            <!-- Box 9 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://nyesteventuretech.com/images/django-development.png" alt="">
+                </div>
+                <h2>Python DJango</h2>
+                <h3>Duration: 1Month</h3>
+                <!-- <span>&#8377; 2000/-</span> -->
+                <!-- <i class='bx bx-cart-alt'></i> -->
+            </div>
+            <!-- Box 10 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-transparent-svg-vector-bie-supply-2.png" alt="">
+                </div>
+                <h2>MySQL</h2>
+                <h3>Duration: 1Month</h3>
+                <!-- <span>&#8377; 2000/-</span> -->
+                <!-- <i class='bx bx-cart-alt'></i> -->
+            </div>
+    
+            <!-- Box 11 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/dsa_image.png" alt="">
+                </div>
+                <h2>Data Structure and Algorithms</h2>
+                <h3>Duration: 2Months</h3>
+                <!-- <span>&#8377; 5000/-</span> -->
+                <!-- <i class='bx bx-cart-alt'></i> -->
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- Service -->
+    <section class="services" id="services">
+        <div class="heading">
+            <span>Services</span>
+            <h2>We provide best TECH services</h2>
+        </div>
+
+        <div class="servives-container">
+            <!-- Box 1 -->
+            <div class="s-box">
+                <img src="images/tutorial 1.png" alt="">
+                <h3>Coding Tutorial</h3>
+                <p> We teach programming languages, Web development, Database management, Object Oriented programming, and Data Structure and Algorithms from scratch to expert in online as well as offline mode.</p>
+            </div>
+            <!-- Box 2 -->
+            <div class="s-box">
+                <img src="images/web design1.png" alt="">
+                <h3>Web Design</h3>
+                <p>With so much trade and entertainment occurring on the internet, websites can be helpful to advertise and boost up your business. We develop websites for businesses of all the sizes globally. </p>
+            </div>
+            <!-- Box 3 -->
+            <div class="s-box">
+                <img src="images/support2.png" alt="">
+                <h3>Tech Support</h3>
+                <p>Diagnosing and providing clear advice and implementation on what the customer can do to troubleshoot their problems related to web projects.We provide tech support to web projects globally.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect -->
+    <section class="connect">
+        <div class="connect-text">
+            <span>Let's Talk</span>
+            <h2>Connect now</h2>
+            <h4>Reach out today, and let's embark on a journey that transforms aspirations into achievements.</h4>
+        </div>
+        <button onclick="showform()" class="btn">Connect Us</button>
+    </section>
+
+    <!-- Connect Form -->
+    <section  class="connect1">
+        <div hidden class="htmlform" id="connectform">
+            <form  method="post">
+                <input id="user" type="text" name="Username" required placeholder="Your Full Name" /><br><br>
+                <input id="email" type="email" name="Email" required placeholder="Your Email Address" /><br><br>
+                <input id="contact" type="text" name="Contact" required placeholder="Your Phone Number" /><br><br>
+                <textarea id="msg" type="text" name="message" placeholder="Your Message" rows="6" ></textarea><br><br>
+                <button onclick="getformdata()">Submit</button>
+
+            </form>
+        </div>
+        <div hidden class="thanks" id="thanks">
+                <h1 style="color: hsl(203, 100%, 53%);">Thank you for Connecting with Us!!</h1>
+                <h3>We will reach you soon.</h3>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact1">
+        <div class="contact-box">
+            <h3>TechWorld</h3>
+            <span>Connect With Us</span>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+            </div>
+        </div>
+        <div class="contact-box">
+            <h3>Menu Links</h3>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+        <!-- <div class="contact-box">
+            <h3>Quick Links</h3>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Privacy Policy">Privacy Policy</a></li>
+            <li><a href="#Disclaimer">Disclaimer</a></li>
+            <li><a href="#Terms Of Use">Terms Of Use</a></li>
+        </div> -->
+        <div class="contact-box address">
+            <h3>Contact</h3>
+            <i class='bx bxs-map' ><span>Indore, Madhya Pradesh, India</span></i>
+            <i class='bx bxs-phone' ><span>+91 9399711857</span></i>
+            <i class='bx bxs-envelope' ><span>techworld@gmail.com</span></i>
+        </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>©<b>TechWorld</b> All Right Reserved from 2023.</p>
+    </div>
+
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Link To JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
