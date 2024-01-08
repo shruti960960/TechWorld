@@ -39,7 +39,7 @@ body {
   cursor: pointer;
 }
 header {
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 0;
   right: 0;
@@ -337,6 +337,21 @@ header {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, form {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, .htmlform {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
 
 .mydiv:target{
 display: block !important;
@@ -374,7 +389,8 @@ textarea:focus{
   border-color: hsl(203, 87%, 17%);
 }
 
-.htmlform button{
+
+.htmlform input[type=submit]{
   width: 100%;
   margin-left: 20px;
   margin-right: 400px;
@@ -386,7 +402,7 @@ textarea:focus{
   color: #fff;
 }
 
-.htmlform button:hover{
+.htmlform input[type=submit]:hover{
   background: #1b1464;
 }
 

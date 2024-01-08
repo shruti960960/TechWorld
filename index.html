@@ -15,8 +15,8 @@
 <body>
     <!-- Navbar -->
     <header>
-        <img src="c:\Users\LENOVO\Pictures\logo2A updated.png" style="width: 80px;height: 70px;"/>
-        <a href="#" class="logo" style="padding-right: 600px;">TechWorld</a>
+        <img src="images/logo2A updated.png" style="width: 80px;height: 70px;"/>
+        <a href="#" class="logo" style="padding-right: 500px;">TechWorld</a>
         <!-- <p>Decoding Challenges, Building Solutions</p> -->
         <div class="bx bx-menu" id="menu-icon"></div>
 
@@ -54,11 +54,11 @@
             <div hidden class="mydiv"  id="text_to_show_hide">
                <p> Founded in 2019, we are outstanding at delivering coding tutorials in online and offline mode by subject experts, Website development, and tech support globally.
                </p> 
-               <p>TechWorld has been and is a reliable partner, accompanying global businesses to conquer challenges in the technical journey!</p>
+               <p>TechWorld has been and is a reliable partner, accompanying global businesses to conquer challenges in the technical journey.</p>
             </div>
             
             <!-- <a href="#text_to_show_hide" class="btn">Learn More</a> -->
-            <button class="btn" onclick="showtext()">Learn More</button>
+            <button class="btn" onclick="showtext()" id="showtextbtn">Learn More</button>
         </div>
     </section>
 
@@ -196,19 +196,19 @@
         <div class="servives-container">
             <!-- Box 1 -->
             <div class="s-box">
-                <img src="images/tutorial 1.png" alt="">
+                <img src="images/tutorial_image.png" alt="">
                 <h3>Coding Tutorial</h3>
                 <p> We teach programming languages, Web development, Database management, Object Oriented programming, and Data Structure and Algorithms from scratch to expert in online as well as offline mode.</p>
             </div>
             <!-- Box 2 -->
             <div class="s-box">
-                <img src="images/web design1.png" alt="">
+                <img src="images/webdesign_image.png" alt="">
                 <h3>Web Design</h3>
                 <p>With so much trade and entertainment occurring on the internet, websites can be helpful to advertise and boost up your business. We develop websites for businesses of all the sizes globally. </p>
             </div>
             <!-- Box 3 -->
             <div class="s-box">
-                <img src="images/support2.png" alt="">
+                <img src="images/support_image.png" alt="">
                 <h3>Tech Support</h3>
                 <p>Diagnosing and providing clear advice and implementation on what the customer can do to troubleshoot their problems related to web projects.We provide tech support to web projects globally.</p>
             </div>
@@ -227,13 +227,13 @@
 
     <!-- Connect Form -->
     <section  class="connect1">
-        <div hidden class="htmlform" id="connectform">
-            <form  method="post">
+        <div  class="htmlform" hidden id="connectform" >
+            <form method="post" onsubmit="getformdata()">
                 <input id="user" type="text" name="Username" required placeholder="Your Full Name" /><br><br>
                 <input id="email" type="email" name="Email" required placeholder="Your Email Address" /><br><br>
                 <input id="contact" type="text" name="Contact" required placeholder="Your Phone Number" /><br><br>
                 <textarea id="msg" type="text" name="message" placeholder="Your Message" rows="6" ></textarea><br><br>
-                <button onclick="getformdata()">Submit</button>
+                <input type="submit" value="Submit" />
 
             </form>
         </div>

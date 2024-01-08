@@ -25,19 +25,20 @@ darkmode.onclick = () => {
 function showtext() {
     // get the div
     var myDiv = document.getElementById('text_to_show_hide');
-
+    var mybtn = document.getElementById('showtextbtn')
     // get the current value of the div
     var displaySetting = myDiv.style.display;
 
     if (displaySetting == 'block') {
       
       myDiv.style.display = 'none';
+      mybtn.innerHTML = 'Learn More'
       
     }
     else {
       
       myDiv.style.display = 'block';
-     
+      mybtn.innerHTML = 'Learn Less'
     }
   }
 
@@ -78,7 +79,7 @@ if (document.getElementById('thanks') !== undefined) {
 
 
 
-  
+
 }
 
 
