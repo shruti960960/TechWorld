@@ -32,13 +32,13 @@ function showtext() {
     if (displaySetting == 'block') {
       
       myDiv.style.display = 'none';
-      mybtn.innerHTML = 'Learn More'
+      mybtn.innerHTML = 'More'
       
     }
     else {
       
       myDiv.style.display = 'block';
-      mybtn.innerHTML = 'Learn Less'
+      mybtn.innerHTML = 'Less'
     }
   }
 
