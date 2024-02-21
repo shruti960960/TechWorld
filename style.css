@@ -215,7 +215,7 @@ header {
 
 .connect-text span {
   color: var(--main-color);
-  font-weight: 500;
+  font-weight: 800;
 }
 .connect-text h2 {
   font-size: var(--h2-font);
