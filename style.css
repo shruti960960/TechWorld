@@ -116,7 +116,7 @@ header {
 }
 .about-text span {
   color: var(--main-color);
-  font-size: 50px;
+  font-size: 100px;
   font-weight: 500;
 }
 .about-text h2 {
@@ -130,7 +130,7 @@ header {
 }
 .heading span {
   color: var(--main-color);
-  font-size: 50px;
+  font-size: 100px;
   font-weight: 500;
 }
 .heading h2 {
@@ -217,7 +217,7 @@ header {
 
 .connect-text span {
   color: var(--main-color);
-  font-size: 50px;
+  font-size: 100px;
   font-weight: 500;
 }
 .connect-text h2 {
