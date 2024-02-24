@@ -218,18 +218,18 @@ header {
   align-items: center;
 } */
 
-.connect-text span {
-  display: table;
-  margin: 0 auto;
+/* .connect-text span {
+/*   display: table;
+  margin: 0 auto; */
   color: var(--main-color);
   font-size: 40px;
   font-weight: 500;
-}
-.connect-text h2 {
-  padding-left: 270px;
+} */
+/* .connect-text h2 {
+/*   padding-left: 270px; */
   font-size: var(--h2-font);
   
-}
+} */
 .contact {
   display: grid;
 /*   align-items: center; */
