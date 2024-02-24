@@ -228,7 +228,7 @@ header {
 }
 .contact {
   display: grid;
-  align-items: center;
+/*   align-items: center; */
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   gap: 1.5rem;
 }
