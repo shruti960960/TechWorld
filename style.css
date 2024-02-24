@@ -294,7 +294,8 @@ text-align:center;
     flex-direction: column;
     text-align: center;
     background: var(--bg-color);
-    box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+/*  box-shadow: 0 4px 4px rgb(0 0 0 / 10%); */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 80px;
     left: 0;
@@ -310,6 +311,7 @@ text-align:center;
     padding: 1.5rem;
     display: block;
     background: var(--bg-color);
+    color: var(--text-color); /* new added */
   }
 
   #menu-icon {
@@ -423,10 +425,21 @@ textarea:focus{
   background: #1b1464;
 }
 
-.menu-toggle {
+/* .menu-toggle {
   display: none;
   font-size: 24px;
   cursor: pointer;
+} */
+
+
+.menu-toggle {
+  display: block;
+  font-size: 2rem;
+  cursor: pointer;
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  z-index: 9999; /* Ensure it's above other elements */
 }
 
 @media screen and (max-width: 768px) {
