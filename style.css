@@ -226,7 +226,7 @@ header {
   font-weight: 500;
 }
 .connect-text h2 {
-  text-align: center;
+  margin: 0 auto;
   font-size: var(--h2-font);
   
 }
