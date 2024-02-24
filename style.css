@@ -213,23 +213,26 @@ header {
   align-items: center;
   justify-content: space-around;
 }
-/* .connect-text{
-  display: flex;
-  align-items: center;
-} */
 
 /* .connect-text span {
-/*   display: table;
-  margin: 0 auto; */
+  display: table;
+  margin: 0 auto; 
   color: var(--main-color);
   font-size: 40px;
-  font-weight: 500;
-} */
+  font-weight: 500; 
+}  */
+
+
 /* .connect-text h2 {
-/*   padding-left: 270px; */
-  font-size: var(--h2-font);
+ padding-left: 270px; 
+ font-size: var(--h2-font);
   
-} */
+}  */
+
+.connect-text h4{
+text-align:center;
+  
+}
 .contact {
   display: grid;
 /*   align-items: center; */
