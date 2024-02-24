@@ -213,10 +213,10 @@ header {
   align-items: center;
   justify-content: space-around;
 }
-.connect-text{
+/* .connect-text{
   display: flex;
   align-items: center;
-}
+} */
 
 .connect-text span {
   color: var(--main-color);
