@@ -220,6 +220,7 @@ header {
 
 .connect-text span {
   display: table;
+  margin: 0 auto;
   color: var(--main-color);
   font-size: 40px;
   font-weight: 500;
