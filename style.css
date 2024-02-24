@@ -435,3 +435,9 @@ textarea:focus{
   }
 }
 
+.box:hover{
+  scale: 1.1;
+  
+}
+
+
