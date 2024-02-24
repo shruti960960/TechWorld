@@ -219,6 +219,7 @@ header {
 } */
 
 .connect-text span {
+  display: table;
   color: var(--main-color);
   font-size: 40px;
   font-weight: 500;
