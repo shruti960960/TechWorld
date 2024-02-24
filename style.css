@@ -226,8 +226,10 @@ header {
   font-weight: 500;
 }
 .connect-text h2 {
-  font-size: var(--h2-font);
+  display: table;
   margin: 0 auto;
+  font-size: var(--h2-font);
+  
 }
 .contact {
   display: grid;
