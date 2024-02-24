@@ -227,6 +227,7 @@ header {
 }
 .connect-text h2 {
   font-size: var(--h2-font);
+  margin: 0 auto;
 }
 .contact {
   display: grid;
