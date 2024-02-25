@@ -416,3 +416,33 @@ textarea:focus{
 }
 
 
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none; /* Hide the navbar by default */
+    flex-direction: column;
+    text-align: center;
+    background: var(--bg-color);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 80px; /* Adjust as needed */
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    max-height: calc(100vh - 80px); /* Adjust max-height to fit screen */
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .navbar a {
+    padding: 1.5rem;
+    display: block;
+    background: var(--bg-color);
+    color: var(--text-color);
+  }
+}
+
+
+
