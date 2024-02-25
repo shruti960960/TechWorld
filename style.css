@@ -56,10 +56,10 @@ header {
   font-weight: 800;
   color: var(--main-color);
 }
-.navbar {
+/* .navbar {
   display: flex;
   align-items: right;
-}
+} */
 .navbar a {
   font-size: 1rem;
   padding: 10px 20px;
