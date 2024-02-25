@@ -425,11 +425,10 @@ textarea:focus{
     background: var(--bg-color);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
-    top: 80px; /* Adjust as needed */
+    top: 0; /* Place the navbar at the top of the viewport */
     left: 0;
-    right: 0;
-    overflow: hidden;
-    max-height: calc(100vh - 80px); /* Adjust max-height to fit screen */
+    width: 100%; /* Set the width to 100% to occupy the entire viewport */
+    z-index: 999; /* Ensure the navbar is above other elements */
   }
 
   .navbar.active {
