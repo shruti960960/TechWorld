@@ -417,31 +417,52 @@ textarea:focus{
 
 
 
-@media (max-width: 768px) {
-  .navbar {
-    display: none; /* Hide the navbar by default */
+/* .navbar {
+  display: flex;
+  align-items: right;
+} */
+
+
+.navbar {
+    display: none;
     flex-direction: column;
     text-align: center;
     background: var(--bg-color);
+/*  box-shadow: 0 4px 4px rgb(0 0 0 / 10%); */
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
-    top: 0; /* Place the navbar at the top of the viewport */
+    top: 80px;
     left: 0;
-    width: 100%; /* Set the width to 100% to occupy the entire viewport */
-    z-index: 999; /* Ensure the navbar is above other elements */
+    right: 0;
+    overflow: hidden;
   }
+
+.navbar a {
+  font-size: 1rem;
+  padding: 10px 20px;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+
+.navbar a {
+    padding: 1.5rem;
+    display: block;
+    background: var(--bg-color);
+    color: var(--text-color); /* new added */
+  }
+
+
+.navbar a:hover {
+  color: var(--main-color);
+}
+ 
 
   .navbar.active {
     display: flex;
   }
 
-  .navbar a {
-    padding: 1.5rem;
-    display: block;
-    background: var(--bg-color);
-    color: var(--text-color);
-  }
-}
+ 
 
 
 
