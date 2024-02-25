@@ -435,32 +435,32 @@ textarea:focus{
 
 
 
-.navbar {
+/* .navbar {
     display: none;
     flex-direction: column;
     text-align: center;
     background: var(--bg-color);
-/*  box-shadow: 0 4px 4px rgb(0 0 0 / 10%); */
+    box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 80px;
     left: 0;
     right: 0;
     overflow: hidden;
-  }
+  } */
 
 
-.navbar a {
+/* .navbar a {
     padding: 1.5rem;
     display: block;
     background: var(--bg-color);
-    color: var(--text-color); /* new added */
-  }
+    color: var(--text-color); 
+  } */
  
 
-  .navbar.active {
+/*   .navbar.active {
     display: flex;
-  }
+  } */
 
  
 
