@@ -56,6 +56,23 @@ header {
   font-weight: 800;
   color: var(--main-color);
 }
+
+.navbar {
+  display: flex;
+  align-items: right;
+}
+
+.navbar a {
+  font-size: 1rem;
+  padding: 10px 20px;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: var(--main-color);
+}
+
 #menu-icon {
   font-size: 2rem;
   cursor: pointer;
@@ -417,11 +434,6 @@ textarea:focus{
 
 
 
-.navbar {
-  display: flex;
-  align-items: right;
-}
-
 
 .navbar {
     display: none;
@@ -437,13 +449,6 @@ textarea:focus{
     overflow: hidden;
   }
 
-.navbar a {
-  font-size: 1rem;
-  padding: 10px 20px;
-  color: var(--text-color);
-  font-weight: 500;
-}
-
 
 .navbar a {
     padding: 1.5rem;
@@ -451,11 +456,6 @@ textarea:focus{
     background: var(--bg-color);
     color: var(--text-color); /* new added */
   }
-
-
-.navbar a:hover {
-  color: var(--main-color);
-}
  
 
   .navbar.active {
