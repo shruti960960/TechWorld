@@ -116,6 +116,7 @@ header {
 }
 .about-text span {
   color: var(--main-color);
+  font-size: 40px;
   font-weight: 500;
 }
 .about-text h2 {
